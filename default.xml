@@ -22,7 +22,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="tm" >
+  <project path="build" name="android_build" remote="tm" revision="oms" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -239,7 +239,7 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="tm" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="tm" revision="oms" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="external_skia" remote="aospb" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
@@ -275,7 +275,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="frameworks_av" remote="tm" />
-  <project path="frameworks/base" name="frameworks_base" remote="tm" />
+  <project path="frameworks/base" name="frameworks_base" remote="tm" revision="oms" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -284,7 +284,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="frameworks_native" remote="aospb" />
+  <project path="frameworks/native" name="frameworks_native" remote="tm" revision="oms" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" remote="aospb" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
